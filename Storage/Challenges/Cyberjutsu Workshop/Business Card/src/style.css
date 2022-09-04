@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    font-family: 'Barlow';
+    font-weight: bold;  
+    color:white;
+}
+
+html,
+body {
+    background-color: #3f0d12;
+    background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+    color: white;
+    margin: 0;
+    height: 100%;
+}
+a {
+    color:gray;
+    font-size: 0.8em;
+}
+.resp-textbox {
+    position: relative;
+    width: 300px;
+    text-align: center;
+}
+input {
+    font-family: 'Barlow';
+    font-weight: 200;  
+}
+pre {
+    font-family: 'Roboto Mono';
+}
+.resp-textbox>input[type=submit] {
+    
+    background-color: #212121;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 0.7em;
+    padding: 5px;
+    width: 100px;
+    
+}
+
+.resp-textbox>input[type=text] {
+    width: 100%;
+    padding: 5px;
+    font-size: 1em;
+    background-color: #0003;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25) inset;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.resp-textbox>input[type=text]:focus {
+    outline: none;
+    box-shadow: 325px 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.resp-textbox>input[type=text]::placeholder {
+    color: #fff8;
+}
+
+.column {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+hr {
+    border: 1px dashed white;
+}

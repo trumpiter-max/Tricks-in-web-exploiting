@@ -1,0 +1,9 @@
+version: "3.6"
+services:
+  php-cmdi-3in1:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "5555:80"
+    volumes:
+      - ./src:/var/www/html
